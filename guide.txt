@@ -1,0 +1,11 @@
+You will need the following installed:
+
+> matplotlib
+> selenium
+> webdriver-manager
+
+You will also need Chromium installed.
+
+Open main.py to start application.
+To use, go to a MEE6 leaderboard and paste in the number on the end
+of the URL.
