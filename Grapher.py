@@ -3,8 +3,6 @@ import numpy as np
 from pylab import *
 import random
 
-#colours = ['dimgray','firebrick','tomato','peru','darkgoldenrod','olivedrab','forestgreen','lightseagreen','teal','steelblue','midnightblue','rebeccapurple','mediumvioletred',]
-
 def PROCESS(x):
 	multiplier = 1
 	if x[-1] == "k":
