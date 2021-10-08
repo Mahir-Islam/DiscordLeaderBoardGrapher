@@ -11,11 +11,7 @@ import Grapher as GP
 
 
 def SCRAPE(URL_ID, INDEX):
-	"""PATH = "C:\Program Files (x86)\chromedriver.exe"
-
-	driver = wd.Chrome(PATH)"""
 	driver = wd.Chrome(ChromeDriverManager().install())
-
 
 	driver.get(f"https://mee6.xyz/leaderboard/{URL_ID}")
 
@@ -29,8 +25,6 @@ def SCRAPE(URL_ID, INDEX):
 	"""
 
 	try:
-
-		#title = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, "//div[@class='sc-1kdz257-4 jpTyHV']"))).text
 
 		main = WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CLASS_NAME, "leaderboardPlayersList")))
 		#the driver will wait 5 seconds, then it will search for an element of id "leaderboardPlayersList"
